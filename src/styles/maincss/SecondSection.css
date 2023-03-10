@@ -1,0 +1,86 @@
+section.secondSection{
+    width: 30%;
+    margin-top: 80px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+section.secondSection h1.sct-title{
+    font-size: 24px;
+    color: var(--primary);
+    margin-top: 30px;
+}
+.shortcut-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+section.secondSection div.buttons-sct{
+    display: flex;
+    flex-wrap: wrap;
+}
+section.secondSection div.buttons-sct div{
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    background-color: white;
+    cursor: not-allowed;
+    box-shadow: 0px 0px 30px rgb(234, 234, 234);
+}
+section.secondSection div.buttons-sct span{
+    color: var(--primary);
+    font-weight: 500;
+    font-size: 14px;
+}
+section.secondSection div.buttons-sct img{
+    width: 15px;
+    height: 15px;
+}
+
+
+/* Album card */
+section section.artist-card{
+    width: 90%;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px;
+}
+section section.artist-card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+section footer.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section footer.footer h4{
+    color: var(--primay);
+    font-weight: 500;
+}
+section footer.footer p{
+    color: var(--secondary);
+    font-size: 12px;
+    font-weight: 400;
+}
+.add-album-icon{
+    font-size: 24px;
+    color: var(--primay);
+}

@@ -1,0 +1,9 @@
+main{
+    width: 100%;
+    background-color: var(--body);
+    margin-left: 23%;
+    flex-grow: 1;
+}
+.mainSection{
+    display: flex;
+}
