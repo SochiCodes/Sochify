@@ -1,0 +1,44 @@
+
+header.header{
+    width: 100%;
+    height: 80px;
+    padding: 20px 0;
+    background-color: var(--body);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header nav{
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.arrowIcons{
+    color: var(--primary);
+    cursor: not-allowed;
+    font-size: 16px;
+}
+
+input.search{
+    width: 530px;
+    height: 43px;
+    border-radius: 50px;
+    outline: 0;
+    border: 0;
+    padding: 0 55px;
+    font-size: 16px;
+    
+}
+header.header form{
+    position: relative;
+}
+form .searchIcon{
+    position: absolute;
+    left: 20px;
+    top: 9px;
+    font-size: 25px;
+    opacity: .7;
+}

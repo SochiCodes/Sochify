@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../styles/maincss/Banner.css'
+import './../../../styles/homepagecss/maincss/Banner.css'
 
 import {MdOutlineArrowForwardIos} from 'react-icons/md'
 

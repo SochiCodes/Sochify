@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import {FavArtistsList}  from './FavArtistsList'
-import '../../styles/maincss/FavArtists.css'
+import './../../../styles/homepagecss/leftcss/FavArtists.css'
 
 
 

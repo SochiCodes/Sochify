@@ -1,0 +1,28 @@
+div.connect-2-spotify{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+div.connect-2-spotify a.login{
+    padding: 15px 30px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    outline: 0;
+    border: 0;
+    font-weight: 500;
+    border-radius: 50px;
+    background-color: #00d84f;
+    cursor: pointer;
+    transition: .5s;
+}
+
+a.login:hover{
+    scale: 105% 105%;
+}

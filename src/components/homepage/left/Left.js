@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import { ShortCutItems } from './ShortCutItems'
 import FavArtists from './FavArtists'
-import '../../styles/maincss/SecondSection.css'
+import './../../../styles/homepagecss/leftcss/Left.css'
 
 import {CgAddR} from 'react-icons/cg'
 
@@ -9,7 +9,7 @@ export default function SecondSection() {
   const [items] = useState(ShortCutItems)
   
   return (
-    <section className="secondSection">
+    <section className="left">
       <div className='shortcut-wrapper'>
         <h1 className='sct-title'>Shortcuts</h1>
         <div className="buttons-sct">

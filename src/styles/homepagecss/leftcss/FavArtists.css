@@ -15,18 +15,24 @@ section.favArtists div.fav-wrapper{
 .fav-container{
     width: 100%;
     height: 60px;
-    padding-right: 25px;
+    padding-right: 20px;
     /* background-color: red; */
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+
 div.fav-wrapper .artist-detail{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
+    transition: 0.8s;
+}
+.fav-container .artist-detail:hover{
+    cursor: pointer;
+    opacity: .8;
 }
 div.fav-wrapper .artist-library{
     display: flex;
@@ -48,4 +54,3 @@ section.favArtists div.fav-wrapper p{
     color: var(--faintText);
     font-weight: 500;
 }
-

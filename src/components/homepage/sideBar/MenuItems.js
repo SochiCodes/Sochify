@@ -10,6 +10,7 @@ import {
 } from 'react-icons/md'
 
 export const MenuItems = [
+    
     {
         id: 1,
         icon: <MdHomeFilled/>,
@@ -39,6 +40,7 @@ export const MenuItems = [
         icon: <BiCalendarEvent/>,
         name: "Events"
     },
+    
     //row3
     { 
         title: "Your Collection "

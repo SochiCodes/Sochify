@@ -1,6 +1,6 @@
 import React from 'react'
 import MusicListTable from './MusicListTable'
-import '../../styles/maincss/PlayList.css'
+import './../../../styles/homepagecss/maincss/PlayList.css'
 
 export default function PlayList() {
   return (
@@ -10,15 +10,17 @@ export default function PlayList() {
         <p>Show All</p>
        </div>
        {/* Music Table */}
-      <section>
+      <section className='table-section'>
         <table>   
-            <tr>
-                <th>NO.</th>
-                <th>TITLE</th>
-                <th>ARTIST</th>
-                <th>TIME</th>
-                <th>ALBUM</th>
-            </tr>
+            <thead>
+              <tr>
+                  <th>NO.</th>
+                  <th>TITLE</th>
+                  <th>ARTIST</th>
+                  <th>TIME</th>
+                  <th>ALBUM</th>
+              </tr>
+            </thead>
             {/* Table body */}
             <MusicListTable/>
         </table>
