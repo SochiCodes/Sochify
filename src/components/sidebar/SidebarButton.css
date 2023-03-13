@@ -1,0 +1,31 @@
+div.menu-btn{
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+    
+    /* background-color: green; */
+}
+div.menu-btn:hover{
+    background-color: var(--primary);
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondary);
+}
+
+div.menu-btn p{
+    font-weight: 500;
+}
+
+/* Active button */
+
+.btn-body.active {
+    background-color: var(--primary);
+    color: white;
+}

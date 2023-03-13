@@ -1,0 +1,6 @@
+.player{
+    display: flex;
+    background-color: var(--body);
+    gap: 1%;
+    margin-bottom: 1%;
+}

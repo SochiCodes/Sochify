@@ -1,0 +1,77 @@
+
+
+.library-body{
+    width: 77%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-image: url("/public/img/bg.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: red; */
+    padding: 0 35px;
+    background-color: var(--body);
+}
+.playlist-card{
+    width: 18%;
+    height: 43%;
+    border-radius: 20px;
+    background-color: white;
+    padding: 1%;
+    margin: 1%;
+    cursor: pointer;
+    position: relative;
+    /* background-color: black; */
+    box-shadow: 0 0 10px rgb(236, 236, 236);
+}
+.playlist-card:hover{
+    transition: .8s;
+    box-shadow: 0 0 10px rgb(205, 218, 245);
+    scale: 101%;
+}
+.playlist-card:hover .playlist-fade{
+    transition: 1s;
+    opacity: 1;
+}
+.playlist-image{
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.playlist-title{
+    font-weight: 800;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 5px 0px 5px ;
+    color: (--primary);
+    display: -webkit-box;
+    text-overflow: hidden;
+    line-clamp: 2;
+    -webkit-box-orientate: vertical
+}
+.playlist-subtitle{
+    font-weight: 400;
+    font-size: 12px;
+    margin: 0 0 10px;
+    color: var(--faintText);
+}
+.playlist-fade{
+    opacity: 0;
+    width: 84%;
+    height: 34%;
+    border-radius: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 5%;
+
+    /* background-color: red; */
+}
+

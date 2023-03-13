@@ -1,0 +1,7 @@
+.screen-container{
+    width: calc(100% - 23%);
+    width: 100%;
+    background-color: red;
+    margin-left: 23%;
+    padding-bottom: 3%;
+}

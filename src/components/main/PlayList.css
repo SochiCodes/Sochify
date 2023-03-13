@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+section.playListSection{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+div.playListHeader{
+    display: flex;
+    justify-content: space-between;
+}
+div.playListHeader h1{
+    font-size: 30px;
+    color: var(--primary);
+}
+div.playListHeader p{
+    font-weight: 500;
+    color: var(--secondary);
+}
+
+/* Music list Table Styling Starts Here */
+section.playListSection .table-section{
+    width: 100%;
+    height: 300px;
+    overflow-y: hidden;
+}
+/* scroll bar styling */
+.table-section::-webkit-scrollbar{
+    width: 5px;
+    border-radius: 20px;
+}
+.table-section::-webkit-scrollbar-track:hover{
+    box-shadow: 0 0 6px rgba(153, 153, 153, 0.3);
+    border-radius: 20px;
+}
+.table-section::-webkit-scrollbar-thumb{
+    width: 2px;
+    height: 5px;
+    background-color: #dadceb;
+    border-radius: 20px;
+}
+section.playListSection .table-section:hover{
+    overflow-y: scroll;
+}
+/* scroll bar ends--------------- */
+section.playListSection table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table tr td {
+    padding: 18px 10px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--secondary);
+    text-align: left;
+    max-width: 180px;
+    text-overflow: ellipsis;
+}
+
+/* td:first-child,
+th:first-child {
+    border-radius:  20px 0 0 20px;
+    background-color: transparent;
+}
+td:last-child,
+th:last-child {
+    border-radius: 0 20px 20px 0;
+    -moz-border-raduis: 0 20px 20px 0;
+    -webkit-border-raduis: 0 20px 20px 0
+} */
+
+table  tr th {
+    padding: 15px 10px;
+    font-size: 13px;
+    color: var(--faintText);
+    text-align: left;
+    font-weight: 500;
+}
+
+table tbody tr:hover{
+    background-color: white;
+    box-shadow: 0px 5px 50px #c0c6e4;
+    
+}
+

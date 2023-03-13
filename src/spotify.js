@@ -3,16 +3,9 @@ import axios from 'axios'
 const authEndPoint = "https://accounts.spotify.com/authorize?";
 const clientID = "8b6948bb377c467996c2fd9d13b4ba6e";
 const redirectUri = "http://localhost:3000";
-const scopes = [
-    "user-read-email", 
-    "user-read-private", 
+const scopes = [ 
     "user-library-read", 
     "playlist-read-private", 
-    "user-modify-playback-state", 
-    "user-read-playback-state", 
-    "user-read-currently-playing",
-    "user-read-playback-position",
-    "user-top-read",
 ];
 
 
@@ -29,3 +22,13 @@ export const setClientToken = (token) => {
     })
 }
 export default apiClient;
+
+// const getPlaylist = async()=>{
+//     const {data} = await axios.get("https://api.spotify.com/v1/me/playlists", {
+//       headers: {
+//         Authorization: `Bearer  ${token}`
+//       }
+//     })
+//     console.log(data.items[0].images[0].url)
+//   }
+//   getPlaylist()

@@ -1,0 +1,10 @@
+.main{
+    width: 70%;
+    /* background-color: #ff0000; */
+    padding: 0 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    position: relative;
+}
+
