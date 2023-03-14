@@ -7,7 +7,7 @@ import PlayList from './PlayList'
 import AudioPlayer from './AudioPlayer'
 
 
-export default function FirstSection() {
+export default function Main() {
   return (
     <section className="main">
       <Header/>

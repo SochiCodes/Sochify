@@ -39,7 +39,7 @@ export default function SideBar() {
       <div className='navmenu-container'>
         <div className='nav menu-1'>
           <div className="icon-wrapper">
-            <SidebarButton title="Player" to="/player" icon={<MdHomeFilled className='icon'/>}/>
+            <SidebarButton title="Home" to="/player" icon={<MdHomeFilled className='icon'/>}/>
           </div>
           <div className="icon-wrapper">
             <SidebarButton title="Trends" to="/trends" icon={<BsClipboardPulse/>}/>

@@ -5,9 +5,9 @@ import './index.css'
 
 import {CgAddR} from 'react-icons/cg'
 
-export default function SecondSection() {
+export default function Left(album) {
   const [items] = useState(ShortCutItems)
-  
+  console.log(album)
   return (
     <section className="left">
       <div className='shortcut-wrapper'>

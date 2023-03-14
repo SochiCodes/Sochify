@@ -4,7 +4,7 @@ import { setClientToken } from '../../spotify'
 //Pages
 import Favorites from '../favorites/Favorites'
 import Feed from '../feed/Feed'
-import Library from '../library/Library'
+import Library from '../library'
 import Player from '../player/index'
 import Trending from '../trends/Trends'
 import Album from '../album/Album'

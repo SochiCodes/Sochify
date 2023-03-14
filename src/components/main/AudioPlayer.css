@@ -21,7 +21,7 @@ section.audioPlayer .songCoverImg{
     width: 20%;
     height: 100%;
     border-radius: 20px 0 0 20px;
-    background-color: red;
+    background-color: grey;
     overflow: hidden;
 }
 section.audioPlayer .songCoverImg img{
@@ -49,7 +49,10 @@ div.mainControls div.audioControls{
     gap: 10px;
 }
 div.mainControls div.audioControls .play{
-    font-size: 30px;
+    font-size: 35px;
+}
+div.mainControls div.audioControls .play:hover{
+    scale: 105% 105%
 }
 
 div.mainControls .icon{
